@@ -1,0 +1,84 @@
+﻿<Window x:Class="CursoWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CursoWPF"
+        mc:Ignorable="d"
+        
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"        
+        Title="Aplicativo" Height="600" Width="300" ResizeMode="NoResize">
+    <!--<Grid>-->
+        <!--<TextBlock FontSize="20" Margin="10" Height ="25" Width="100">Texto</TextBlock>
+        <Rectangle Width="150" Height="30" Fill="#FF4BE11C" VerticalAlignment="Bottom"></Rectangle>-->        
+    <!--</Grid>-->
+    <StackPanel>
+        <!--<TextBlock Margin="10">Texto mais simples possível</TextBlock>-->
+        <!--<TextBlock Margin="10" Text="Outro texto bem simples"/>
+        <TextBlock Margin="10" Foreground="Gold">Com cor de fonte</TextBlock>
+        <TextBlock Margin="10" Background="Brown">Com cor de fundo</TextBlock>-->
+        <!--<TextBlock Margin="10" ToolTip="Dica de texto">Texto com dica</TextBlock>-->
+        <!--TextBlock Margin="10" Cursor="Help">Cursor símbolo Help</TextBlock>-->
+        <!--<TextBlock Margin="10" Cursor="Hand">Cursor símbolo Hand</TextBlock>-->
+        <!--<TextBlock Margin="10" Cursor="SizeAll">Cursor símbolo Arrow</TextBlock>-->
+        
+        <!--<TextBox Margin="10">Olá mundo!</TextBox>-->
+        <!--<TextBox Margin="10" FontWeight="Bold">Campo em negrito</TextBox>-->
+        <!--<TextBox Margin="10" IsEnabled="False">Campo indisponível</TextBox>-->
+        <!--TextBox Margin="10" IsReadOnly="True">Somente leitura</TextBox>-->
+        <!--<TextBox Margin="10" MaxLength="40" Foreground="Red">Máximo 40 caracteres</TextBox>-->
+        <!--<TextBox Margin="10" Foreground="Blue" FontWeight="Bold" AcceptsReturn="True" MaxHeight="60">Aceita parágrafo</TextBox>-->
+        <!--<TextBox Margin="10" Width="100" AcceptsReturn="True" TextWrapping="Wrap" HorizontalAlignment="Left">Texto alinhado a esquerda</TextBox>-->
+
+        <!--<CheckBox Margin="10">Primeiro Checkbox</CheckBox>-->
+        <!--<CheckBox Margin="10" IsChecked="True">Segundo Checkbox</CheckBox>-->
+        <!--<CheckBox Margin="10" IsThreeState="True">Terceiro Checkbox</CheckBox>-->
+        <!--<CheckBox Margin="10" Content="Quarto Checkbox" FontSize="16" FontWeight="Black" Foreground="Brown"/>-->
+
+        <!--<TextBlock Margin="10" FontSize="16" FontWeight="Bold">Opções RadioButton</TextBlock>-->
+        <!--<RadioButton Margin="10,2" GroupName="PriSel" IsChecked="True">Primeira opção</RadioButton>-->
+        <!--<RadioButton Margin="10,2" GroupName="PriSel">Segunda opção</RadioButton>-->
+        <!--<RadioButton Margin="10,2" GroupName="PriSel">Terceira opção</RadioButton>-->
+
+        <!--<TextBlock Margin="10" FontSize="16" FontWeight="Bold">Selecione uma opção</TextBlock>-->
+        <!--<RadioButton Margin="5" GroupName="SecSel" Content="Sim" IsChecked="True"/>-->
+        <!--<RadioButton Margin="5" GroupName="SecSel" Content="Não"/>-->
+        <!--<RadioButton Margin="5" GroupName="SecSel" Content="Talvez"/>-->
+                
+        <!--<Button Margin="10" Content="Primeiro Button"/>
+        <Button Margin="10" ToolTip="Button gerado pela Biblioteca do MaterialDesign" HorizontalAlignment="Center">Segundo Button</Button>
+        <Button Margin="10" ToolTip="Button gerado pela Biblioteca do MaterialDesign" HorizontalAlignment="Stretch">Segundo Button</Button>
+        <Button Margin="10" ToolTip="Button gerado pela Biblioteca do MaterialDesign" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">Segundo Button</Button>
+        <Button Margin="10" Width="150" Height="30">Terceiro Button</Button>-->
+
+        <!--<Button Margin="10" Style="{StaticResource MaterialDesignRaisedLightButton}">MaterialDesignRaisedLightButton</Button>
+        <Button Margin="10" Style="{StaticResource MaterialDesignRaisedButton}">MaterialDesignRaisedButton</Button>
+        <Button Margin="10" Style="{StaticResource MaterialDesignRaisedDarkButton}" Content="MaterialDesignRaisedDarkButton"></Button>
+        <Button Margin="10" Style="{StaticResource MaterialDesignRaisedAccentButton}" Content="MaterialDesignRaisedAccentButton"/>
+        <Button Margin="10" Style="{StaticResource MaterialDesignFlatButton}" Content="MaterialDesignFlatButton"/>
+        <Button Margin="10" Style="{StaticResource MaterialDesignFloatingActionLightButton}" Content="MaterialDesignFlatButton"></Button>
+        <Button Margin="10" Style="{StaticResource MaterialDesignFloatingActionLightButton}">
+            <materialDesign:PackIcon Kind="Account" Height="30" Width="30"></materialDesign:PackIcon>
+        </Button>-->
+
+        <ComboBox Width="100" HorizontalAlignment="Left" Margin="10" IsEditable="True">
+            <ComboBoxItem IsSelected="True">Primeiro</ComboBoxItem>
+            <ComboBoxItem>Segundo</ComboBoxItem>
+            <ComboBoxItem>Terceiro</ComboBoxItem>
+        </ComboBox>
+
+        <ToggleButton Margin ="10" HorizontalAlignment="Left" IsChecked="True"></ToggleButton>
+
+
+
+    </StackPanel>
+</Window>
+    
+    

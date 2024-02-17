@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Modulo1\wpf1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Modulo1\wpf2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Modulo1\wpf3.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Modulo1\wpf4.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Modulo1\wpf5.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>

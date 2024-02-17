@@ -1,0 +1,42 @@
+﻿<Window x:Class="wpfAplicacionesEscritorio.Modulo1.wpf5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfAplicacionesEscritorio.Modulo1"
+        mc:Ignorable="d"
+        Title="wpf5" Height="450" Width="800">
+    
+    <Grid x:Name="grid1" ShowGridLines="True">
+
+        <Grid.Resources>
+            <Storyboard x:Key="sb1">
+                <DoubleAnimation From="0" To="250" Storyboard.TargetName="el1" Storyboard.TargetProperty="Width">
+                    <DoubleAnimation.EasingFunction>
+                        <PowerEase></PowerEase>
+                    </DoubleAnimation.EasingFunction>
+                </DoubleAnimation>
+
+                <DoubleAnimation From="0" To="250" Storyboard.TargetName="el1" Storyboard.TargetProperty="Height">
+                    <DoubleAnimation.EasingFunction>
+                        <BounceEase></BounceEase>
+                    </DoubleAnimation.EasingFunction>
+                </DoubleAnimation>
+            </Storyboard>
+        </Grid.Resources>
+
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock TextAlignment="Center" FontSize="40" Height="50" Grid.Row="0">Hola Linkedin Learning
+            <TextBlock.RenderTransform>
+                <RotateTransform Angle="2"></RotateTransform>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+
+        <Ellipse Fill="Red" Grid.Row="1" Width="100" Height="100" x:Name="el1" MouseLeftButtonDown="el1_MouseLeftButtonDown">
+            
+        </Ellipse>
+    </Grid>
+</Window>
